@@ -1,0 +1,32 @@
+package com.eight.product;
+
+public class productService
+{
+	private productDAO pd;
+
+	public productService(productDAO pd)
+	{
+		super();
+		System.out.println("Step "+A.StepCount()+" >>> "+"productService parameterised constructor entered");
+		this.pd = pd;
+		System.out.println("Step "+A.StepCount()+" >>> "+"productService parameterised constructor exited");
+	}
+
+	public productService()
+	{
+		System.out.println("Step "+A.StepCount()+" >>> "+"productDAO default constructor entered");
+		System.out.println("Step "+A.StepCount()+" >>> "+"productDAO default constructor exited");
+	}
+
+	public productDAO getPd()
+	{
+		return pd;
+	}
+
+	public void setPd(productDAO pd)
+	{
+		this.pd = pd;
+	}
+	
+	
+}

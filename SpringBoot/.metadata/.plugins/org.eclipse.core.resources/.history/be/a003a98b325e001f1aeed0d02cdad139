@@ -1,0 +1,16 @@
+package com.eight;
+
+
+/**
+ * Handles requests and diverts the requests to the service layer
+ */
+public class controller
+{
+	private service s;
+	
+	public void save()
+	{
+		System.out.println("controller saving started");
+		System.out.println("controller saving exited");
+	}
+}

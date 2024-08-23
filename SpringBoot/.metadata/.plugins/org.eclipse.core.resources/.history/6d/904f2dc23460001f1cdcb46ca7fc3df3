@@ -1,0 +1,61 @@
+package com.eight.product;
+
+public class productPojo
+{
+	int pid;
+	String pname;
+	double pprice;
+	double pgst;
+	
+	
+	
+	
+	public productPojo()
+	{
+		
+	}
+
+	public productPojo(int pid, String pname, double pprice, double pgst)
+	{
+		super();
+		this.pid = pid;
+		this.pname = pname;
+		this.pprice = pprice;
+		this.pgst = pgst;
+	}
+	
+	public int getPid()
+	{
+		return pid;
+	}
+	public void setPid(int pid)
+	{
+		this.pid = pid;
+	}
+	public String getPname()
+	{
+		return pname;
+	}
+	public void setPname(String pname)
+	{
+		this.pname = pname;
+	}
+	public double getPprice()
+	{
+		return pprice;
+	}
+	public void setPprice(double pprice)
+	{
+		this.pprice = pprice;
+	}
+	public double getPgst()
+	{
+		return pgst;
+	}
+	public void setPgst(double pgst)
+	{
+		this.pgst = pgst;
+	}
+	
+	
+}

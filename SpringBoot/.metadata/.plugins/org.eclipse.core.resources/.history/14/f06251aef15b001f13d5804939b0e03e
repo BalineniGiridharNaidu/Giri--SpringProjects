@@ -1,0 +1,9 @@
+package com.slokam.components;
+
+public class cpu
+{
+	public void start()
+	{
+		System.out.println("keyboard started");
+	}
+}

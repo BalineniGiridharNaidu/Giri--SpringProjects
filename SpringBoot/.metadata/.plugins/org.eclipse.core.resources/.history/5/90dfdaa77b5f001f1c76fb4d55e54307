@@ -1,0 +1,8 @@
+package com.eight.product;
+
+public class productService
+{
+	private productDAO pd;
+	
+	
+}

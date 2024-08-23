@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/activation-1.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/antlr-2.7.7.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/aopalliance-1.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/aspectjrt-1.8.5.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/commons-beanutils-1.8.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/commons-codec-1.9.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/commons-dbcp2-2.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/commons-digester-2.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/commons-fileupload-1.3.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/commons-io-2.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/commons-logging-1.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/commons-pool2-2.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/dom4j-1.6.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/hibernate-commons-annotations-4.0.5.Final.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/hibernate-core-4.3.8.Final.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/hibernate-jpa-2.1-api-1.0.0.Final.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/hibernate-validator-4.3.1.final-1.0.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/httpclient-4.4.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/httpcore-4.4.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/itextpdf-5.5.4.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/jackson-annotations-2.5.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/jackson-core-2.5.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/jackson-databind-2.5.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/jackson-jsog-1.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/jandex-1.1.0.Final.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/javassist-3.18.1-GA.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/javax.xml.bind.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/jboss-logging-3.1.3.GA.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/jboss-logging-annotations-1.2.0.Beta1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/jboss-transaction-api_1.2_spec-1.0.0.Final.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/jedis-2.5.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/jstl-1.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/junit-4.12.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/log4j-1.2.17.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/mail-1.4.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/mysql-connector-java-8.0.26.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/poi-3.15-beta1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/poi-excelant-3.15-beta1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/poi-ooxml-3.15-beta1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/poi-ooxml-schemas-3.15-beta1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/poi-scratchpad-3.15-beta1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/servlet-api.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/slf4j-api-1.7.5.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/spring-aop-4.1.6.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/spring-beans-4.1.6.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/spring-context-4.1.6.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/spring-context-support-4.1.6.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/spring-core-4.1.6.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/spring-data-redis-1.4.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/spring-expression-4.1.6.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/spring-jdbc-4.1.6.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/spring-orm-4.1.6.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/spring-security-config-4.0.0.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/spring-security-core-4.0.0.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/spring-security-crypto-4.0.0.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/spring-security-web-4.0.0.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/spring-session-1.0.1.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/spring-tx-4.1.6.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/spring-web-4.1.6.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/spring-webmvc-4.1.6.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/tiles-api-2.2.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/tiles-compat-2.2.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/tiles-core-2.2.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/tiles-el-2.2.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/tiles-extras-2.2.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/tiles-freemarker-2.2.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/tiles-jsp-2.2.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/tiles-mvel-2.2.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/tiles-ognl-2.2.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/tiles-portlet-2.2.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/tiles-portlet-wildcard-2.2.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/tiles-servlet-2.2.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/tiles-servlet-wildcard-2.2.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/tiles-template-2.2.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/tiles-velocity-2.2.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/validation-api-1.0.0.GA.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/xml-apis-1.0.b2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/xmlbeans-2.5.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibGiri/xmlbeans-xmlpublic-2.4.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="target/generated-sources/annotations">
+		<attributes>
+			<attribute name="ignore_optional_problems" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="m2e-apt" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="target/generated-test-sources/test-annotations">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="ignore_optional_problems" value="true"/>
+			<attribute name="m2e-apt" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

@@ -1,0 +1,33 @@
+package com.eight.product;
+
+import org.springframework.jdbc.core.JdbcTemplate;
+
+public class productDAO
+{
+	private JdbcTemplate jtp;
+
+	public productDAO(JdbcTemplate jtp)
+	{
+		super();
+		System.out.println("Step "+A.StepCount()+" >>> "+"productDAO parameterised constructor entered");
+		this.jtp = jtp;
+		System.out.println("Step "+A.StepCount()+" >>> "+"productDAO parameterised constructor exited");
+	}
+
+	public productDAO()
+	{
+		super();
+	}
+
+	public JdbcTemplate getJtp()
+	{
+		return jtp;
+	}
+
+	public void setJtp(JdbcTemplate jtp)
+	{
+		this.jtp = jtp;
+	}
+	
+	
+}

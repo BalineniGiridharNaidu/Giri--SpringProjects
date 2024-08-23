@@ -1,0 +1,29 @@
+package com.eight.product;
+
+public class productService
+{
+	private productDAO pd;
+
+	public productService(productDAO pd)
+	{
+		super();
+		this.pd = pd;
+	}
+
+	public productService()
+	{
+		super();
+	}
+
+	public productDAO getPd()
+	{
+		return pd;
+	}
+
+	public void setPd(productDAO pd)
+	{
+		this.pd = pd;
+	}
+	
+	
+}

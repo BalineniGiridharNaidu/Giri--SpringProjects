@@ -1,0 +1,22 @@
+package com.slokam;
+
+import javax.sql.DataSource;
+
+import org.apache.commons.dbcp2.BasicDataSource;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@ComponentScan("com.slokam")
+public class ConfigClass
+{	
+	@Bean
+	public DataSource getDataSource()
+	{	
+		BasicDataSource ds = new BasicDataSource();
+		
+		
+		return ds;
+	}
+}

@@ -1,0 +1,12 @@
+package com.product;
+
+public class productPojo
+{
+	int pid;
+	String pname;
+	double pprice;
+	double pgst;
+	String ptype;
+	
+	
+}

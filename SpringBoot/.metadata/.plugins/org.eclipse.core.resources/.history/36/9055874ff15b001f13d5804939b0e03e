@@ -1,0 +1,11 @@
+package com.slokam.components;
+
+public class desktop
+{
+	private monitor mon;
+	private cpu cp;
+	private keyboard kb;
+	private mouse mous;
+	
+	
+}

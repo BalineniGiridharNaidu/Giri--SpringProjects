@@ -1,0 +1,23 @@
+package com.eight;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class test extends AnnotationConfigApplicationContext
+{	
+	@Override
+	public String toString()
+	{
+	    return super.toString();
+	}
+	
+	public static void main(String[] args)
+	{
+		test ioc = new test(SpringBeanConfigurationFile.class);
+		
+		System.out.println(ioc.toString());
+		
+		//controller con = c.getBean(controller.class);
+		
+		//con.save(new emp(1, "Siva", 90000.89));
+	}
+}

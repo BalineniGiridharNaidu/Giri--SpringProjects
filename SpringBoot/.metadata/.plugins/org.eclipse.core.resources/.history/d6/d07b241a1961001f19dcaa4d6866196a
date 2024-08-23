@@ -1,0 +1,36 @@
+package com.product;
+
+import javax.sql.DataSource;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+
+
+public class test
+{	
+	
+	public static void main(String[] args)
+	{
+		AnnotationConfigApplicationContext ioc = new AnnotationConfigApplicationContext();
+		DataSource ds  =  (DataSource) ioc.getBean("getDataSource");
+		
+		for(int i=1; i<=100; i++)
+		{
+			Thread t = new Thread( ()->{ try{ ds.getConnection(); } catch(Exception e) {e.printStackTrace();} } );
+			t.start();
+		}
+	}
+	
+	
+	public static void main1(String[] args)
+	{
+		AnnotationConfigApplicationContext ioc = new AnnotationConfigApplicationContext(pConfig.class);
+		
+		pController pc = ioc.getBean(pController.class);
+		
+	    pc.saveBatchdataThroughJdbcTemplateFromFile("./product_info2.txt");
+		
+		 
+		ioc.close();
+	}
+}

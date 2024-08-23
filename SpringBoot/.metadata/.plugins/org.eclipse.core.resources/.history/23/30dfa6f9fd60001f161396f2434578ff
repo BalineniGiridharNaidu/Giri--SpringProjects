@@ -1,0 +1,14 @@
+package com.product;
+
+public class productPojo
+{
+	private int pid;
+	private String pname;
+	private double pprice;
+	private double pgst;
+	private String ptype;
+	
+	
+	
+	
+}

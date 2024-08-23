@@ -1,0 +1,27 @@
+package com.slokam;
+
+
+
+
+
+class B
+{
+	B()
+	{
+		System.out.println("B constructor");
+	}
+}
+
+class C extends B
+{
+	
+}
+
+
+ class A
+{
+	public static void main(String[] args)
+	{
+		
+	}
+}

@@ -1,0 +1,23 @@
+package com.eight;
+
+import org.springframework.stereotype.Component;
+
+/**
+ * Manages all database logic
+ */
+@Component
+public class dao
+{
+	public dao()
+	{
+		System.out.println("Controller constructor entered");
+		System.out.println("Controller constructor exited");
+	}
+	
+	public void save(emp e)
+	{
+		System.out.println("dao saving started");
+		System.out.println(e);
+		System.out.println("dao saving exited");
+	}
+}

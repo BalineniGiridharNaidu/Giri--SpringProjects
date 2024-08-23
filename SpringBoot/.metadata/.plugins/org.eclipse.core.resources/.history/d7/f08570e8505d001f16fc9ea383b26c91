@@ -1,0 +1,14 @@
+package com.giridhar.SpringTwo;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class test
+{
+	public static void main(String[] args)
+	{
+		AnnotationConfigApplicationContext sc = new AnnotationConfigApplicationContext(configData.class);
+		
+		 manager m = sc.getBean(manager.class); 
+		 
+	}
+}

@@ -1,0 +1,12 @@
+package com.eight.product;
+
+import org.apache.commons.dbcp2.BasicDataSource;
+
+public class ConfigFile
+{
+	public BasicDataSource getDataSource()
+	{
+		BasicDataSource ds = new BasicDataSource();
+		return ds;
+	}
+}

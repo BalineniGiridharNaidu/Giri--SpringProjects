@@ -1,0 +1,21 @@
+package com.giri;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class A
+{
+	private A a;
+
+	public A(A a)
+	{
+		super();
+		this.a = a;
+	}
+
+	public void setA(A a)
+	{
+		this.a = a;
+	}
+	
+}

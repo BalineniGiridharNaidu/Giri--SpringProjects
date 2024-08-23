@@ -1,0 +1,6 @@
+package com.product;
+
+public class pservice
+{
+	private pDao da;
+}

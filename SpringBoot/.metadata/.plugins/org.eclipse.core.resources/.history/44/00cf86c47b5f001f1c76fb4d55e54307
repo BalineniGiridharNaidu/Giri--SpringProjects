@@ -1,0 +1,8 @@
+package com.eight.product;
+
+public class productController
+{
+	private productService ps;
+	
+	
+}

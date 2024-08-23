@@ -1,0 +1,22 @@
+package com.eight;
+
+import org.apache.commons.dbcp2.BasicDataSource;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@ComponentScan("com.eight")
+public class SpringBeanConfigurationFile
+{
+	public SpringBeanConfigurationFile()
+	{
+		System.out.println("Step "+A.count() +" >> "+ "SpringBeanConfigurationFile constructor entered");
+		System.out.println("Step "+A.count() +" >> "+ "SpringBeanConfigurationFile constructor exited");
+	}
+	
+	public BasicDataSource getDataSource()
+	{	
+		
+		return null;
+	}
+}

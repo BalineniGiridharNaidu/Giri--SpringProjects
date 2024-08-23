@@ -1,0 +1,9 @@
+package com.slokam.components;
+
+public class monitor
+{
+	public void start()
+	{
+		System.out.println("cpu started");
+	}
+}

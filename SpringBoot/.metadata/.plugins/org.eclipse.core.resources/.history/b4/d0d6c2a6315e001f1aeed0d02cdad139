@@ -1,0 +1,8 @@
+package com.eight;
+
+
+//
+public class controller
+{
+	private service s;
+}

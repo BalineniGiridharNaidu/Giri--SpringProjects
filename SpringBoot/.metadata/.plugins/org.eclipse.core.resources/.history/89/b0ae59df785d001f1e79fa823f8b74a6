@@ -1,0 +1,23 @@
+package com.practice;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@ComponentScan("com.practice")
+public class config
+{	
+	@Bean(name = "integer")
+	public int getInt()
+	{	
+		System.out.println("integer 1 method");
+		return 1;
+	}
+	
+	@Bean
+	public int getInt2()
+	{
+		return 1;
+	}
+}

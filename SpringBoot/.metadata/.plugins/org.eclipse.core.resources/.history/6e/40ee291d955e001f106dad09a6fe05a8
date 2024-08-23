@@ -1,0 +1,45 @@
+package com.eight;
+
+import javax.sql.DataSource;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+/**
+ * Manages all database logic
+ */
+@Component
+public class dao
+{	
+	@Autowired
+	private DataSource ds;
+	
+	public dao(DataSource ds)
+	{
+		System.out.println("Step "+A.count() +" >> "+ "dao  parameter constructor entered");
+		this.ds = ds;
+		System.out.println("Step "+A.count() +" >> "+ "dao parameter constructor exited");
+	}
+	
+	
+	public void setDs(DataSource ds)
+	{	
+		System.out.println("Step "+A.count() +" >> "+"service setter method start");
+		this.ds = ds;
+		System.out.println("Step "+A.count() +" >> "+"service setter method start");
+	}
+
+
+	public dao()
+	{
+		System.out.println("Step "+A.count() +" >> "+ "dao  default constructor entered");
+		System.out.println("Step "+A.count() +" >> "+ "dao default constructor exited");
+	}
+	
+	public void save(emp e)
+	{
+		System.out.println("dao saving started");
+		System.out.println(e);
+		System.out.println("dao saving exited");
+	}
+}

@@ -1,0 +1,11 @@
+package com.product;
+
+public class pController
+{
+	private pservice ps;
+	
+	public void save(productPojo p)
+	{
+		
+	}
+}

@@ -1,0 +1,9 @@
+package com.slokam.components;
+
+public class keyboard
+{
+	public void start()
+	{
+		System.out.println("keyboard started");
+	}
+}

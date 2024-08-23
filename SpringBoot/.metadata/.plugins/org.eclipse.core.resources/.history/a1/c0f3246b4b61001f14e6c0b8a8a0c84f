@@ -1,0 +1,57 @@
+package com.slokam;
+
+
+
+
+
+class B
+{
+	B()
+	{
+		System.out.println("B constructor");
+	}
+}
+
+class C 
+{
+	C()
+	{
+		System.out.println("C constructor");
+	}
+	
+	C(int a)
+	{
+		System.out.println("C constructor");
+	}
+	
+	C(String a)
+	{
+		System.out.println("C constructor");
+	}
+	
+	C(double b)
+	{
+		System.out.println("C constructor");
+	}
+	
+	C(char c)
+	{
+		System.out.println("C constructor");
+	}
+	
+	C(short q)
+	{
+		System.out.println("C constructor");
+	}
+	
+}
+
+
+public class A
+{
+	public static void main(String[] args)
+	{
+		C  h = new C();
+		
+	}
+}

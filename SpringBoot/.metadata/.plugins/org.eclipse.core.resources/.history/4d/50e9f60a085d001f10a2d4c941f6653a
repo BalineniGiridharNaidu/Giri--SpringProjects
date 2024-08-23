@@ -1,0 +1,46 @@
+package com.slokam;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+
+
+@Component
+public class controller
+{	
+	
+	
+	@Autowired
+	private service s;
+	
+	public void searchByFirstLetter(String a )
+	{	
+		System.out.println("searchByFirstLetter controller started");
+		s.searchByFirstLetter(a);
+		System.out.println("searchByFirstLetter controller ended");
+	}
+	
+	public void save(empPojo e)
+	{
+		System.out.println("controller saving started");
+		s.save(e);
+		System.out.println("controller saving completed");
+	}
+	
+	public void getById(int eid)
+	{	 
+		System.out.println("controller getById started");
+		s.getById(eid);
+		System.out.println("controller getById completed");
+		
+	}
+	
+	public void searchByName(String ename)
+	{
+		System.out.println("Controller name search started");
+		s.searchByName(ename);
+		System.out.println("Controller name search completed");
+	}
+}

@@ -1,0 +1,19 @@
+package com.eight;
+
+import org.springframework.stereotype.Component;
+
+/**
+ * receives  requests and diverts the requests to the Data Access Object layer
+ */
+@Component
+public class service
+{
+	private dao d;
+	
+	public void save(emp e)
+	{
+		System.out.println("service saving started");
+		d.save(e);
+		System.out.println("service saving exited");
+	}
+}

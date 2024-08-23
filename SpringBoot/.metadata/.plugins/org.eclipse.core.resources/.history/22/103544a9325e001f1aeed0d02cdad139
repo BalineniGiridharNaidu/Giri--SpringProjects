@@ -1,0 +1,13 @@
+package com.eight;
+
+/**
+ * Manages all database logic
+ */
+public class dao
+{
+	public void save(emp e)
+	{
+		System.out.println("controller saving started");
+		System.out.println("controller saving exited");
+	}
+}

@@ -1,0 +1,19 @@
+package com.slokam.components;
+
+public class desktop
+{
+	private monitor mon;
+	private cpu cp;
+	private keyboard kb;
+	private mouse mous;
+	
+	public void start()
+	{
+		System.out.println("Desktop booting process started.........");
+		cp.start();
+		mon.start();
+		kb.start();
+		mous.start();
+		System.out.println("Desktop booting process completed.........");
+	}
+}

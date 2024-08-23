@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="target/generated-sources/annotations">
+		<attributes>
+			<attribute name="ignore_optional_problems" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="m2e-apt" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="target/generated-test-sources/test-annotations">
+		<attributes>
+			<attribute name="ignore_optional_problems" value="true"/>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="m2e-apt" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/activation-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/aspectjrt-1.8.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/commons-beanutils-1.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/commons-dbcp2-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/commons-digester-2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/commons-fileupload-1.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/commons-io-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/commons-pool2-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/hibernate-commons-annotations-4.0.5.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/hibernate-core-4.3.8.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/hibernate-validator-4.3.1.final-1.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/httpclient-4.4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/httpcore-4.4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/itextpdf-5.5.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/jackson-annotations-2.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/jackson-core-2.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/jackson-databind-2.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/jackson-jsog-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/jandex-1.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/javassist-3.18.1-GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/javax.xml.bind.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/jboss-logging-3.1.3.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/jboss-logging-annotations-1.2.0.Beta1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/jboss-transaction-api_1.2_spec-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/jedis-2.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/mail-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/mysql-connector-java-8.0.26.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/poi-3.15-beta1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/poi-excelant-3.15-beta1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/poi-ooxml-3.15-beta1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/poi-ooxml-schemas-3.15-beta1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/poi-scratchpad-3.15-beta1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/servlet-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/slf4j-api-1.7.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/spring-aop-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/spring-beans-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/spring-context-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/spring-context-support-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/spring-core-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/spring-data-redis-1.4.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/spring-expression-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/spring-jdbc-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/spring-orm-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/spring-security-config-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/spring-security-core-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/spring-security-crypto-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/spring-security-web-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/spring-session-1.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/spring-tx-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/spring-web-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/spring-webmvc-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/tiles-api-2.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/tiles-compat-2.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/tiles-core-2.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/tiles-el-2.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/tiles-extras-2.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/tiles-freemarker-2.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/tiles-jsp-2.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/tiles-mvel-2.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/tiles-ognl-2.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/tiles-portlet-2.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/tiles-portlet-wildcard-2.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/tiles-servlet-2.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/tiles-servlet-wildcard-2.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/tiles-template-2.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/tiles-velocity-2.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/validation-api-1.0.0.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/xml-apis-1.0.b2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/xmlbeans-2.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Hibernate/Hib/HybNET/hibernateJarFilesRaju/xmlbeans-xmlpublic-2.4.0.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

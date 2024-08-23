@@ -1,0 +1,23 @@
+package com.slokam;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class controller
+{	
+	@Autowired
+	private service s;
+	
+	public void save(empPojo e)
+	{
+		System.out.println("controller saving started");
+		s.save(e);
+		System.out.println("controller saving completed");
+	}
+	
+	public void getById(int eid)
+	{
+		
+	}
+}

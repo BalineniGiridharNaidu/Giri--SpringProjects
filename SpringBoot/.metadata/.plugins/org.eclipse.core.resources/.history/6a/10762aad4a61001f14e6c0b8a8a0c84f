@@ -1,0 +1,24 @@
+package com.slokam;
+
+
+
+
+
+class B
+{
+	
+}
+
+class C extends B
+{
+	
+}
+
+
+ class A
+{
+	public static void main(String[] args)
+	{
+		
+	}
+}

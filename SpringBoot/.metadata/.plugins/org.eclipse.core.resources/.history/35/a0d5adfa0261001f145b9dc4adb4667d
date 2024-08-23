@@ -1,0 +1,21 @@
+package com.product;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class pController
+{	
+	@Autowired
+	private pservice ps;
+	
+	public void createDataBase(String name)
+	{
+		ps.createDataBase(name);
+	}
+	
+	public void save(productPojo p)
+	{
+		
+	}
+}

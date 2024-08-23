@@ -1,0 +1,12 @@
+package com.practice;
+
+public class car
+{
+	private engine e;
+	
+	public void start()
+	{
+		System.out.println("car is starting");
+		System.out.println("Car starting completed ");
+	}
+}

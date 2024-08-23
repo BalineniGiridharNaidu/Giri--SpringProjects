@@ -1,0 +1,20 @@
+package com.product;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+
+
+public class test
+{
+	public static void main(String[] args)
+	{
+		AnnotationConfigApplicationContext ioc = new AnnotationConfigApplicationContext(pConfig.class);
+		
+		 pController pc = ioc.getBean(pController.class);
+	 
+	    pc.saveWithJdbctemplate(new productPojo(2, "nuts ", 889.87, 10.5, "Groceries"));
+		 
+		 
+		ioc.close();
+	}
+}

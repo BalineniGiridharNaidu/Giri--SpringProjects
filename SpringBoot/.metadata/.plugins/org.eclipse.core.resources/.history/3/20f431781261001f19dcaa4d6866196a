@@ -1,0 +1,44 @@
+package com.product;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class pservice
+{	
+	
+	public void saveWithJdbctemplate(productPojo p)
+	{
+		da.saveWithDataSource(p);
+	}
+	
+	
+	public void saveWithDataSource(productPojo p)
+	{
+		da.saveWithDataSource(p);
+	}
+	
+	
+	
+	
+	
+	
+	@Autowired
+	private pDao da;
+	
+	public void createTable(String sqlQuery)
+	{
+		da.createTable(sqlQuery);
+	}
+	
+	public void createDataBase(String name)
+	{
+		da.createDataBase(name);
+	}
+	
+	
+	public void save(productPojo p)
+	{
+		
+	}
+}

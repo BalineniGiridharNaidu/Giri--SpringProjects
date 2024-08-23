@@ -1,0 +1,25 @@
+package com.giri;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class A
+{	
+	@Autowired
+	private A a;
+	
+	@Autowired
+	public A(A a)
+	{
+		super();
+		this.a = a;
+	}
+	
+	@Autowired
+	public void setA(A a)
+	{
+		this.a = a;
+	}
+	
+}

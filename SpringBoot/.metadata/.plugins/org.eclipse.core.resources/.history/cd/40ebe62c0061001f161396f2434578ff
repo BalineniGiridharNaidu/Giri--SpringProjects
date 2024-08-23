@@ -1,0 +1,14 @@
+package com.product;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class pservice
+{
+	private pDao da;
+	
+	public void save(productPojo p)
+	{
+		
+	}
+}

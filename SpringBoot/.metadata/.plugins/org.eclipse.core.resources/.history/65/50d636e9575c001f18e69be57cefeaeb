@@ -1,0 +1,16 @@
+package com.slokam;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class service
+{	
+	private dao da;
+	
+	public void save(empPojo e)
+	{
+		System.out.println("Service saving started");
+		da.save(e);
+		System.out.println("Service saving completed");
+	}
+}

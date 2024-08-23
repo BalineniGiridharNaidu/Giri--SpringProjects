@@ -1,0 +1,10 @@
+package com.eight.product;
+
+import org.springframework.jdbc.core.JdbcTemplate;
+
+public class productDAO
+{
+	private JdbcTemplate jtp;
+	
+	
+}

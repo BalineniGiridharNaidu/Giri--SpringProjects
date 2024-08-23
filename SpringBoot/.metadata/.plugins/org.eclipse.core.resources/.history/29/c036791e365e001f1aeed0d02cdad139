@@ -1,0 +1,9 @@
+package com.eight;
+
+public class A
+{
+	public static count()
+	{
+		
+	}
+}

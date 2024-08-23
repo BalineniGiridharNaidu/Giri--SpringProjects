@@ -1,0 +1,8 @@
+package com.eight;
+
+public class emp
+{
+	int eid;
+	String ename;
+	double esal;
+}

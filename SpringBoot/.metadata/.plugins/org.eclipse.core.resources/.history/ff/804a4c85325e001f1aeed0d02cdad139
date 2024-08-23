@@ -1,0 +1,9 @@
+package com.eight;
+
+/**
+ * Manages all database logic
+ */
+public class dao
+{
+	
+}

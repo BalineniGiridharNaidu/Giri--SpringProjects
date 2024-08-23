@@ -1,0 +1,4 @@
+1,dates,78.90,10.0,groceries
+2,almonds,18.90,9.0,groceries
+3,rice,908.90,10.0,groceries
+4,cucumber,7.89,10.0,vegetables

@@ -1,0 +1,9 @@
+package com.eight.product;
+
+public class productPojo
+{
+	int pid;
+	String pname;
+	double pprice;
+	double pgst;
+}

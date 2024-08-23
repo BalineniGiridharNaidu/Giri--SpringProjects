@@ -1,0 +1,16 @@
+package com.eight.two;
+
+public class test
+{
+	
+}
+
+
+class A
+{	
+	static int i = 1;
+	public static  int count()
+	{
+		return i++;
+	}
+}

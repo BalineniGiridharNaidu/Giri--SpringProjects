@@ -1,0 +1,82 @@
+package com.slokam;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class service
+{	
+	@Autowired
+	private dao da;
+	
+	public void searchByLastLetter(String a )
+	{	
+		String q = "select * from spring_jdbc.employee where ename like ?";
+		try(Connection c = ds.getConnection(); PreparedStatement ps = c.prepareStatement(q); )
+		{
+			ps.setString(1,  ("%"+a) );
+			boolean isResultSet = ps.execute();
+			if(isResultSet) 
+			{	
+				System.out.println("Output will be result set");
+				ResultSet rs = ps.getResultSet();
+				boolean isNotNull = rs.next();
+				while(isNotNull)
+				{
+					empPojo e = new empPojo();
+					e.setEid(rs.getInt(1));
+					e.setEname(rs.getString(2));
+					e.setEage(rs.getInt(3));
+					e.setEsal(rs.getDouble(4));
+					System.out.println(e);
+					isNotNull = rs.next();
+				}
+				if(!isNotNull)
+				System.out.println("No such person name is started with the letter ----- "+ a);
+				System.out.println(rs);
+			}
+			else
+			{
+				System.out.println("Output wont be result set");
+				System.out.println("Update count is "+ ps.getUpdateCount());
+			}
+		}catch(Exception e)
+		{
+			System.out.println("searchByLastLetter catch block executed");
+			e.printStackTrace();
+		}
+	}
+	
+	
+	public void searchByFirstLetter(String a )
+	{	
+		System.out.println("searchByFirstLetter service started");
+		da.searchByFirstLetter(a);
+		System.out.println("searchByFirstLetter service ended");
+	}
+	
+	public void searchByName(String ename)
+	{
+		System.out.println("service name search started");
+		da.searchByName(ename);
+		System.out.println("service name search completed");
+	}
+	
+	public void save(empPojo e)
+	{
+		System.out.println("Service saving started");
+		da.save(e);
+		System.out.println("Service saving completed");
+	}
+	
+	public void getById(int eid)
+	{
+		System.out.println("service getById started");
+		da.getById(eid);
+		System.out.println("service getById completed");
+	}
+}

@@ -1,0 +1,17 @@
+package com.product;
+
+import org.apache.commons.dbcp2.BasicDataSource;
+
+public class Config
+{
+	public BasicDataSource getDataSource()
+	{
+		BasicDataSource ds = new BasicDataSource();
+		//database credentials
+		ds.setDriverClassName("com.mysql.cj.jdbc.Driver");
+		ds.setUrl(null);
+		ds.setUsername("");
+		ds.setPassword(null);
+		
+	}
+}

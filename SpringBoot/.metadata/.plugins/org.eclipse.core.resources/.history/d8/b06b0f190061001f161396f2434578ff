@@ -1,0 +1,11 @@
+package com.product;
+
+public class pservice
+{
+	private pDao da;
+	
+	public void save(productPojo p)
+	{
+		
+	}
+}

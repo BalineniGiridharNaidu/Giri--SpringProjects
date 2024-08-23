@@ -1,0 +1,19 @@
+package com.product;
+
+import org.apache.commons.dbcp2.BasicDataSource;
+
+public class Config
+{
+	public BasicDataSource getDataSource()
+	{
+		BasicDataSource ds = new BasicDataSource();
+		
+		//database credentials
+		ds.setDriverClassName("com.mysql.cj.jdbc.Driver");
+		ds.setUrl("jdbc:mysql://localhost:3306/spring_jdbc");
+		ds.setUsername("root");
+		ds.setPassword("Root@1234");
+		
+		return ds;
+	}
+}

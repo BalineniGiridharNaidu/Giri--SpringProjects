@@ -1,0 +1,9 @@
+package com.slokam.components;
+
+public class mouse
+{
+	public void start()
+	{
+		System.out.println("Mouse started");
+	}
+}

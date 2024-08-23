@@ -1,0 +1,12 @@
+package com.practice;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class engine
+{
+	public void start()
+	{
+		System.out.println("Engine started");
+	}
+}

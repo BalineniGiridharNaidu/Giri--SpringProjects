@@ -1,0 +1,19 @@
+package com.eight.product;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class test
+{
+	public static void main(String[] args)
+	{
+		AnnotationConfigApplicationContext ioc = new AnnotationConfigApplicationContext(ConfigFile.class);
+		System.out.println(ioc);
+		
+		String[] names = ioc.getBeanDefinitionNames();
+		
+		for(String s : names)
+		{
+			
+		}
+	}
+}

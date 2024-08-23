@@ -1,0 +1,29 @@
+package com.eight.product;
+
+public class productController
+{
+	private productService ps;
+
+	public productController(productService ps)
+	{
+		super();
+		this.ps = ps;
+	}
+
+	public productController()
+	{
+		super();
+	}
+
+	public productService getPs()
+	{
+		return ps;
+	}
+
+	public void setPs(productService ps)
+	{
+		this.ps = ps;
+	}
+	
+	
+}

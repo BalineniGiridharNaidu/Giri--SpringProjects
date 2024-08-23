@@ -1,0 +1,18 @@
+package com.slokam.test;
+
+class person
+{
+	private int pid;
+	private String pname;
+	private int page;
+}
+
+public class test
+{
+
+	public static void main(String[] args)
+	{
+		
+	}
+
+}
