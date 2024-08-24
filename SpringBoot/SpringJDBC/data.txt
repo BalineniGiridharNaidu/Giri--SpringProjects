@@ -1,5 +1,4 @@
-19,rina,24,23000
-20,sheena,21,34000
-21,meena,21,25000
-22,rudra,32,34000
-23,kishore,23,121000
+101,tomato,78.90,9,groc
+102,Vegge,99.90,9,vegetables
+103,oil,78.90,9,groc
+104,Ghee,78.90,9,groc

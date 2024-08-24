@@ -5,13 +5,18 @@ import java.io.FileReader;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import javax.sql.DataSource;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.core.namedparam.BeanPropertySqlParameterSource;
+import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
+import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -23,11 +28,93 @@ public class pDao
 	@Autowired
 	private JdbcTemplate temp;
 	
+	@Autowired
+	private NamedParameterJdbcTemplate njtp;
 	
+	
+	public void delete_by_Id_Name(int pid)
+	{
+		MapSqlParameterSource par = new MapSqlParameterSource();
+		par.addValue("pid", pid);
+		
+		int r = njtp.update("delete from giri.product where pid >= :pid", par);
+		System.out.println("No of rows deleted ---"+ r);
+	}
+	
+	public void saveWith_NamedParameterJdbcTemplate_Reading_From_File(String path)
+	{	
+		List<productPojo> data = readDataFromFile(path);
+		
+		BeanPropertySqlParameterSource[] p = new BeanPropertySqlParameterSource[data.size()];
+		
+		for(int i = 0; i<data.size(); i++)
+		{
+		    BeanPropertySqlParameterSource n = new BeanPropertySqlParameterSource(data.get(i));
+		    p[i] = n;
+		}
+		
+		
+		String query = "insert into giri.product values ( :pid, :pname, :pprice, :pgst, :ptype);";
+		
+		int[] vv = njtp.batchUpdate(query, p);
+		System.out.println("No of rows --- "+ vv.length);
+	}
+	
+	
+	public void saveWithNamedParameterJdbcTemplate(productPojo p)
+	{	
+		Map<String, Object> map = new HashMap<>();
+		//Mapping the named tags or labels to the product variables
+		map.put("pid", p.getPid());
+		map.put("pname", p.getPname());
+		map.put("pprice", p.getPprice());
+		map.put("pgst", p.getPgst());
+		map.put("ptype", p.getPtype());
+		
+		
+		int rows = njtp.update("insert into giri.product values ( :pid, :pname, :pprice, :pgst, :ptype);", map);
+		
+		System.out.println("No of rows affected --"+ rows);
+	}
+	
+	
+	public void getAggregatorsById()
+	{
+		Double maxOfPrice = temp.queryForObject("select max(pprice) from giri.product", Double.class);
+		Double maxOfGst = temp.queryForObject("select max(pgst) from giri.product", Double.class);
+		Double avgOfPrice = temp.queryForObject("select avg(pprice) from giri.product", Double.class);
+		Double avgOfGst = temp.queryForObject("select avg(pgst) from giri.product", Double.class);
+		Double minOfPrice = temp.queryForObject("select min(pprice) from giri.product", Double.class);
+		Double minOfGst = temp.queryForObject("select min(pgst) from giri.product", Double.class);
+		System.out.println("Max of price :"+ maxOfPrice);
+		System.out.println("Min of price :"+ minOfPrice);
+		System.out.println("Average of price :"+ avgOfPrice);
+		System.out.println("---------------------------------------------------------");
+		System.out.println("Max of gst :"+ maxOfGst);
+		System.out.println("Min of gst :"+ minOfGst);
+		System.out.println("Average of gst :"+ avgOfGst);
+	}
+		
+	
+	public void getAll4()
+	{
+//		List<Map<String, Object>> mapObjects = temp.queryForList("select * from giri.product");
+//		System.out.println(mapObjects);
+//		System.out.println("--------------------------");
+		List<Map<String, Object>> mapObjects = temp.queryForList("select * from giri.product where pid in (?, ?, ?, ?) and pname like ?" , 2, 3, 5, 7, "%a%");
+		System.out.println(mapObjects);
+	}
+	
+	public void getAll3()
+	{
+		List<productPojo> v = temp.query("select * from giri.product", new GiriCustomRowMapper());
+		System.out.println(v);
+	}
 	
 	public void getAll2()
 	{
 		//productPojo v = temp.queryForObject("select * from giri.product", new BeanPropertyRowMapper<productPojo>(productPojo.class));
+		// this is only works if column names of the table and properties of the class are same, so that beanpropertyrowmapper is used to mapped 
 		List<productPojo> v = temp.query("select * from giri.product", new BeanPropertyRowMapper(productPojo.class));
 		System.out.println(v);
 	}

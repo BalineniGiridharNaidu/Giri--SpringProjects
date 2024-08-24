@@ -1,9 +1,0 @@
-package com.eight.componentClasses;
-
-import org.springframework.stereotype.Component;
-
-@Component
-public class tractor
-{
-	private trolley t;
-}

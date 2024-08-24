@@ -10,6 +10,36 @@ public class pController
 	@Autowired
 	private pservice ps;
 	
+	public void delete_by_Id_Name(int pid)
+	{
+		ps.delete_by_Id_Name(pid);
+	}
+	
+	public void saveWith_NamedParameterJdbcTemplate_Reading_From_File(String path)
+	{
+		ps.saveWith_NamedParameterJdbcTemplate_Reading_From_File(path);
+	}
+	
+	public void saveWithNamedParameterJdbcTemplate(productPojo p)
+	{
+		ps.saveWithNamedParameterJdbcTemplate(p);
+	}
+	
+	public void getAggregatorsById()
+	{
+		ps.getAggregatorsById();
+	}
+	
+	public void getAll4()
+	{
+		ps.getAll4();
+	}
+	
+	public void getAll3()
+	{
+		ps.getAll3();
+	}
+	
 	public void getAll2()
 	{
 		ps.getAll2();

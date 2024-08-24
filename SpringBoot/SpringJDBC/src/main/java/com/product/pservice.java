@@ -9,6 +9,35 @@ public class pservice
 	@Autowired
 	private pDao da;
 	
+	public void delete_by_Id_Name(int pid)
+	{
+		da.delete_by_Id_Name(pid);
+	}
+	public void saveWith_NamedParameterJdbcTemplate_Reading_From_File(String path)
+	{
+		da.saveWith_NamedParameterJdbcTemplate_Reading_From_File(path);
+	}
+	
+	public void saveWithNamedParameterJdbcTemplate(productPojo p)
+	{
+		da.saveWithNamedParameterJdbcTemplate(p);
+	}
+	
+	public void getAggregatorsById()
+	{
+		da.getAggregatorsById();
+	}
+	
+	public void getAll4()
+	{
+		da.getAll4();
+	}
+	
+	public void getAll3()
+	{
+		da.getAll3();
+	}
+	
 	public void getAll2()
 	{
 		da.getAll2();
