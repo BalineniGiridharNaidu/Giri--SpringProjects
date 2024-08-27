@@ -10,6 +10,11 @@ public class pController
 	@Autowired
 	private pservice ps;
 	
+	public void getProductByid(int pid)
+	{
+		ps.getProductByid(pid);
+	}
+	
 	public void delete_by_Id_Name(int pid)
 	{
 		ps.delete_by_Id_Name(pid);

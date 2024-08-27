@@ -20,6 +20,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\DELL\Java\Giri--SpringProjects\SpringBoot\SpringJDBC"/>
 			<item value="C:\Users\DELL\Java\SpringBoot\SpringBootFromScratch"/>
 			<item value="C:\SpringBootProjects\SpringOne\SpringOne"/>
 		</list>
@@ -45,12 +46,15 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.nina.HibernateProject"/>
 			<item value="com.eight.SpringWithoutBoot"/>
 		</list>
 		<list key="groupId">
+			<item value="com.nina"/>
 			<item value="com.eight"/>
 		</list>
 		<list key="artifactId">
+			<item value="HibernateProject"/>
 			<item value="SpringWithoutBoot"/>
 		</list>
 		<list key="projectNameTemplate">

@@ -20,6 +20,8 @@ public class test
 		//pc.saveWith_NamedParameterJdbcTemplate_Reading_From_File("./data.txt");
 		
 		//pc.delete_by_Id_Name(101);
+		
+		pc.getProductByid(4);
 	}
 		
 }

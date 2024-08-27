@@ -32,6 +32,15 @@ public class pDao
 	private NamedParameterJdbcTemplate njtp;
 	
 	
+	public void getProductByid(int pid)
+	{	
+		MapSqlParameterSource par = new MapSqlParameterSource();
+		par.addValue("pid", pid);
+		productPojo v = njtp.queryForObject("select * from giri.product where pid = :pid", par, new GiriCustomRowMapper());
+		System.out.println(v);
+	}
+	
+	
 	public void delete_by_Id_Name(int pid)
 	{
 		MapSqlParameterSource par = new MapSqlParameterSource();

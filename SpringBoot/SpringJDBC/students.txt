@@ -1,0 +1,10 @@
+1,Giridhar,18,Bsc
+2,Nina,89,Btech
+3,Siva,24,Bsc
+4,jyoshna,56,Bsc
+5,ruthika,90,Btech
+6,teena,26,Bsc
+7,meena,27,Btech
+8,Sheena,18,Bsc
+9,shruti,28,Bsc
+10,sheela,19,Btech

@@ -1,9 +1,0 @@
-package com.eight;
-
-/**
- * receives  requests and diverts the requests to the Data Access Object layer
- */
-public class service
-{
-	private dao d;
-}

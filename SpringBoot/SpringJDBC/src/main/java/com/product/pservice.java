@@ -9,6 +9,11 @@ public class pservice
 	@Autowired
 	private pDao da;
 	
+	public void getProductByid(int pid)
+	{
+		da.getProductByid(pid);
+	}
+	
 	public void delete_by_Id_Name(int pid)
 	{
 		da.delete_by_Id_Name(pid);
